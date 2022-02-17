@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tu Carrito</title>
+        <meta name="description" content="Venta de golosinas y bebidas por mayoreo y minorista">
+        <meta name="keywords" content="html,asp,js,meta,kiosco,bebidas,golosinas,cocacola,cigarrillos">
+        <link rel="shortcut icon" type="image/x-icon" href="../multimedia/logo.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js">
+
+
+        <link rel="stylesheet" href="../estilos.css">
+    </head>
+
+</head>
+
+<body>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar"> <i class="logoCaramelo"><img
+                src="../multimedia/logo-caramelo.png" alt=""></i>
+        <a class="navbar-brand" id="navMenu" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Inicio <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Promociones.html">Promociones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Carrito.html">Carrito</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./Productos.html" id="navbarDropdownMenuLink"
+                        role="button" data-toggle="dropdown" aria-expanded="false">
+                        Productos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./Productos.html#Bebidas">Bebidas</a>
+                        <a class="dropdown-item" href="./Productos.html#Golosinas">Golosinas</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </nav>
+    <main>
+
+    </main>
+    <section>
+        <div class="container mt-5 p-3 rounded cart">
+            <div class="row no-gutters">
+                <div class="col-md-8">
+                    <div class="product-details mr-2">
+                        <div class="d-flex flex-row align-items-center"><i class="fa fa-long-arrow-left"></i><span
+                                class="ml-2" id="tucarrito">Tu Carrito</span></div>
+                        <hr>
+                        <h6 class="mb-0">Tus productos</h6>
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex flex-row align-items-center"><span class="text-black-50"></span>
+                                <div class="price ml-2"><span class="mr-1"></span><i class="fa fa-angle-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3 p-2 items rounded">
+                            <div class="d-flex flex-row"><img class="rounded" src="../multimedia/coca500.jpeg"
+                                    width="40">
+                                <div class="ml-2"><span class="font-weight-bold d-block">Coca-Cola</span><span
+                                        class="spec">500ml, zero</span></div>
+                            </div>
+                            <div class="d-flex flex-row align-items-center"><span class="d-block">5</span><span
+                                    class="d-block ml-5 font-weight-bold">$100</span><i
+                                    class="fa fa-trash-o ml-3 text-black-50"></i></div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3 p-2 items rounded">
+                            <div class="d-flex flex-row"><img class="rounded" src="../multimedia/oreo.jpeg" width="40">
+                                <div class="ml-2"><span class="font-weight-bold d-block">Galletitas Oreo</span><span
+                                        class="spec">120gr</span></div>
+                            </div>
+                            <div class="d-flex flex-row align-items-center"><span class="d-block">3</span><span
+                                    class="d-block ml-5 font-weight-bold">$150</span><i
+                                    class="fa fa-trash-o ml-3 text-black-50"></i></div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3 p-2 items rounded">
+                            <div class="d-flex flex-row"><img class="rounded" src="../multimedia/monster.jpeg"
+                                    width="40">
+                                <div class="ml-2"><span class="font-weight-bold d-block">Monster</span><span
+                                        class="spec">350ml, sabor original</span></div>
+                            </div>
+                            <div class="d-flex flex-row align-items-center"><span class="d-block">2</span><span
+                                    class="d-block ml-5 font-weight-bold">$250</span><i
+                                    class="fa fa-trash-o ml-3 text-black-50"></i></div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3 p-2 items rounded">
+                            <div class="d-flex flex-row"><img class="rounded" src="../multimedia/mogul-acidas.jpeg"
+                                    width="40">
+                                <div class="ml-2"><span class="font-weight-bold d-block">Gomitas Mogul&nbsp;</span><span
+                                        class="spec">500gr, acidas</span></div>
+                            </div>
+                            <div class="d-flex flex-row align-items-center"><span class="d-block">10</span><span
+                                    class="d-block ml-5 font-weight-bold">$80</span><i
+                                    class="fa fa-trash-o ml-3 text-black-50"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="payment-info" id="payment-info">
+                        <div class="d-flex justify-content-between align-items-center"><span>Forma de pago</span></div>
+                        <span class="type d-block mt-3 mb-1">Metodo</span><label class="radio"> <input type="radio"
+                                name="card" value="payment" checked> <span><img width="30"
+                                    src="https://img.icons8.com/color/48/000000/mastercard.png" /></span> </label>
+                        <label class="radio"> <input type="radio" name="card" value="payment"> <span><img width="30"
+                                    src="https://img.icons8.com/officel/48/000000/visa.png" /></span> </label>
+                        <label class="radio"> <input type="radio" name="card" value="payment"> <span><img width="30"
+                                    src="https://img.icons8.com/ultraviolet/48/000000/amex.png" /></span> </label>
+                        <label class="radio"> <input type="radio" name="card" value="payment"> <span><img width="30"
+                                    src="../multimedia/iconobtc.png" /></span> </label>
+                        <div><label class="credit-card-label">Nombre y apellido</label><input type="text"
+                                class="form-control credit-inputs" placeholder="Tu nombre y apellido"></div>
+                        <div><label class="credit-card-label">Numero de tarjeta</label><input type="text"
+                                class="form-control credit-inputs" placeholder="0000 0000 0000 0000"></div>
+                        <div class="row">
+                            <div class="col-md-6"><label class="credit-card-label">Fecha de vencimiento</label><input
+                                    type="text" class="form-control credit-inputs" placeholder="12/24"></div>
+                            <div class="col-md-6"><label class="credit-card-label">CVV</label><input type="text"
+                                    class="form-control credit-inputs" placeholder="000"></div>
+                        </div>
+                        <hr class="line">
+                        <div class="d-flex justify-content-between information">
+                            <span>Subtotal</span><span>$0000</span></div>
+                        <div class="d-flex justify-content-between information"><span>Envio</span><span>$0000</span>
+                        </div>
+                        <div class="d-flex justify-content-between information"><span>Total</span><span>$0000</span>
+                        </div><button class="btn btn-primary btn-block d-flex justify-content-between mt-3"
+                            type="button" data-toggle="modal" data-target="#modal-sm"><span>$0000</span><span>Comprar<i
+                                    class="fa fa-long-arrow-right ml-1"></i></span></button>
+
+                    </div>
+                    <div id="modal-sm" class="modal fade" data-backdrop="true">
+                        <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                </div>
+                                <div class="modal-body">
+                                    <div class="p-4 text-center">
+                                        <p>Muchas gracias por tu compra</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-primary"
+                                        data-dismiss="modal">Seguir con el pago</button> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!-- LISTA DE PRODUCTOS SELECCIONADOS
+        SUMA DE LOS PRODUCTOS
+        SUGERENCIAS DE COMPRA -->
+
+
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiosco Sabo</title>
+    <meta name="description" content="Venta de golosinas y bebidas por mayoreo y minorista">
+    <meta name="keywords" content="html,asp,js,meta,kiosco,bebidas,golosinas,cocacola,cigarrillos">
+    <link rel="shortcut icon" type="image/x-icon" href="multimedia/logo.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- NUEVOS LINKS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- NUEVOS LINKS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header class="titulo">
+        <!-- <h1 class="titulo__h1--color titulo__h1--size titulo__h1--font">Kiosco Sabo</h1>  -->
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar"> <i class="logoCaramelo"><img
+                    src="./multimedia/logo-caramelo.png" alt=""></i>
+            <a class="navbar-brand" id="navMenu" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paginas/Promociones.html">Promociones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paginas/Nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paginas/Carrito.html">Carrito</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./paginas/Productos.html" id="navbarDropdownMenuLink"
+                            role="button" data-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="./paginas/Productos.html#Bebidas">Bebidas</a>
+                            <a class="dropdown-item" href="./paginas/Productos.html#Golosinas">Golosinas</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner" id="tamanoCarrusel">
+            <div class="carousel-item active">
+                <img src="./multimedia/baner1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./multimedia/baner2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./multimedia/baner3.jpeg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Atras</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </button>
+    </div>
+    <div class="barraIconos">
+        <div class="icono iconotarjeta">
+            <img src="./multimedia/iconotarjeta.png" alt="">
+            <div class="textoIconos">
+                <div class="title">Aceptamos todas</div>
+                <div class="info">las tarjetas</div>
+            </div>
+        </div>
+        <div class="icono iconobtc">
+            <img src="./multimedia/iconobtc.png" alt="">
+            <div class="textoIconos">
+                <div class="title">Pagos en</div>
+                <div class="info">criptomonedas</div>
+            </div>
+        </div>
+        <div class="icono iconoEnvios">
+            <img src="./multimedia/iconoenvios.png" alt="">
+            <div class="textoIconos">
+                <div class="title">Envio gratis</div>
+                <div class="info">CABA y GBA</div>
+            </div>
+        </div>
+        <div class="icono iconoreloj">
+            <img src="./multimedia/iconoreloj.png" alt="">
+            <div class="textoIconos">
+                <div class="title">Envios</div>
+                <div class="info">en 24hs</div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="sectionNovedades">
+        <h2 class="novedades sectionNovedades__h2--color">Novedades</h2>
+        <div class="contenedorNovedades">
+            <div class="novedad novedad1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            </div>
+            <div class="novedad novedad2" data-aos="zoom-in" data-aos-offset="300"></div>
+            <div class="novedad novedad3" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            </div>
+        </div>
+
+        <!-- NUESTRAS MARCAS -->
+
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Nuestras <b>Marcas</b></h2>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="./multimedia/marcas-coca.jpeg" class="img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Coca-Cola</h4>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+
+                                                <a href="#" class="btn btn-primary">Ver mas</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="./multimedia/marcas-milka.jpeg" class="img-fluid"
+                                                    alt="Headphone">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Milka</h4>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+
+                                                <a href="#" class="btn btn-primary">Ver mas</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="./multimedia/marcas-arcor.jpeg" class="img-fluid"
+                                                    alt="Macbook">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Arcor</h4>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                <a href="#" class="btn btn-primary">Ver mas</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="./multimedia/marcas-terrabusi.png" class="img-fluid"
+                                                    alt="Nikon">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Terrabusi</h4>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+
+                                                <a href="#" class="btn btn-primary">Ver mas</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="./multimedia/marcas-guaymallen.jpeg" class="img-fluid"
+                                                    alt="Play Station">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Guaymallen</h4>
+
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Ver mas</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="./multimedia/marcas-kinder.jpeg" class="img-fluid"
+                                                    alt="Macbook">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Kinder</h4>
+
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Ver mas</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="./multimedia/marcas-pepsi.jpeg" class="img-fluid"
+                                                    alt="Speaker">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Pepsi</h4>
+
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Ver mas</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="./multimedia/marcas-bagley.jpeg" class="img-fluid"
+                                                    alt="Galaxy">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Bagley</h4>
+
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Ver mas</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="contacto">
+    <fieldset" id="Contacto1">
+        <legend class="estiloContacto">Contacto</legend>
+        <form action="">
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" placeholder="Escribe tu nombre">
+            <br>
+            <label for="Telefono">Telefono</label>
+            <input type="text" name="Telefono" placeholder="Escribe tu telefono">
+            <br>
+            <label for="Email">Email</label>
+            <input type="text" name="Email" placeholder="Escribe tu Email">
+            <select name="correo">
+                <option value="hotmail">@hotmail.com</option>
+                <option value="gmail">@gmail.com</option>
+                <option value="icloud">@icloud.com</option>
+            </select>
+            <br>
+            <label for="Mensaje">Mensaje</label>
+            <textarea name="Comentario" id="" cols="25" rows="5" placeholder="Deja tu mensaje"></textarea>
+            <br>
+            <input type="submit" value="Enviar" name="" id="">
+            <input type="reset" value="Borrar todo" name="" id="">
+            Acepto los terminos y condiciones
+            <input type="checkbox">
+        </form>
+        </fieldset>
+</section>
+<footer class="footerTodos">
+    <ul>
+        <li class="linkFacebook"> <a href="https://www.facebook.com/">Facebook</a></li>
+        <li class="linkInstagram"> <a href="https://www.instagram.com/?hl=es-la">Instagram</a></li>
+    </ul>
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+</script>
+<!-- NUEVOS SCRIPT -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
