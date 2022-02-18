@@ -63,67 +63,6 @@
   height: 500px;
 }
 
-/* ESTO ERA DE LOS PARRAFOS Y BORDES */
-/* .estiloParrafos {
-    background-image: url(../multimedia/Coca2.jpg);
-    width: 100%;
-    height: 400px;
-}  */
-/* .bordesParrafos {
-    border: 5px solid orangered;
-    padding: 10px 5px 10px 5px;
-} */
-/* Lista after */
-.menu {
-  list-style: none;
-  float: left;
-  line-height: 65px;
-  width: 100vw;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-align: center;
-}
-
-.menu ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.menu a {
-  display: block;
-  padding: 0px 20px;
-  text-decoration: none;
-  color: red;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
-}
-
-.menu a:hover {
-  background-color: sandybrown;
-  color: blue;
-}
-
-.menu .subMenu {
-  background-color: sandybrown;
-  display: none;
-}
-
-.menu ul li a:hover + ul,
-.menu .subMenu:hover {
-  display: block;
-}
-
 .footerTodos li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -243,6 +182,12 @@
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #999999 !important;
+  font-size: x-large;
+  padding: 10px 0px 10px 20px;
+}
+
+a.nav-link:hover {
+  color: #000 !important;
 }
 
 a.nav-link {
@@ -250,8 +195,8 @@ a.nav-link {
 }
 
 #logoCaramelo {
-  width: 50px;
-  height: 40px;
+  width: 60px;
+  height: 50px;
 }
 
 #tamanoCarrusel {
@@ -279,7 +224,6 @@ a.nav-link {
 
 .textoIconos {
   text-align: center;
-  /* margin-bottom:; */
   float: right;
 }
 
@@ -449,29 +393,6 @@ label.radio input:checked + span {
   border-color: #810000;
 }
 
-h2 {
-  color: #000;
-  font-size: 26px;
-  font-weight: 300;
-  text-align: center;
-  text-transform: uppercase;
-  position: relative;
-  margin: 30px 0 60px;
-}
-
-h2::after {
-  content: "";
-  width: 100px;
-  position: absolute;
-  margin: 0 auto;
-  height: 4px;
-  border-radius: 1px;
-  background: #CE1212;
-  left: 0;
-  right: 0;
-  bottom: -20px;
-}
-
 .carousel {
   margin: 50px auto;
   padding: 0 70px;
@@ -633,5 +554,38 @@ h2::after {
 .star-rating i {
   font-size: 14px;
   color: #ffc000;
+}
+
+.date {
+  font-size: 11px;
+}
+
+.comment-text {
+  font-size: 12px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.shadow-none {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.name {
+  color: #007bff;
+}
+
+.cursor:hover {
+  color: blue;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.textarea {
+  resize: none;
 }
 /*# sourceMappingURL=estilos.css.map */

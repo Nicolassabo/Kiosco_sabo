@@ -58,64 +58,6 @@
     height: 500px;
 }
 
-/* ESTO ERA DE LOS PARRAFOS Y BORDES */
-/* .estiloParrafos {
-    background-image: url(../multimedia/Coca2.jpg);
-    width: 100%;
-    height: 400px;
-}  */
-
-/* .bordesParrafos {
-    border: 5px solid orangered;
-    padding: 10px 5px 10px 5px;
-} */
-
-
-
-/* Lista after */
-// menu
-.menu {
-    list-style: none;
-    float: left;
-    line-height: 65px;
-    width: 100vw;
-    box-sizing: border-box;
-    text-align: center;
-
-}
-
-.menu ul {
-    display: flex;
-    list-style: none;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-
-.menu a {
-    display: block;
-    padding: 0px 20px;
-    text-decoration: none;
-    color: rgb(255, 0, 0);
-    transition: all 500ms ease;
-}
-
-.menu a:hover {
-    background-color: sandybrown;
-    color: blue;
-}
-
-.menu .subMenu {
-    background-color: sandybrown;
-    display: none;
-}
-
-.menu ul li a:hover+ul,
-.menu .subMenu:hover {
-    display: block;
-}
-
 // footer
 .footerTodos li {
     display: flex;
@@ -141,71 +83,7 @@
     width: 10px;
 }
 
-// // golosinas
-// .tituloGolosinas {
-//     background-color: rgb(211, 144, 20);
-//     text-align: center;
-//     text-transform: uppercase;
-// }
-
-// .golosina {
-//     height: 500px;
-//     width: 50%;
-//     background-color: orangered;
-// }
-
-// .golo {
-//     display: flex;
-//     flex-wrap: nowrap;
-//     justify-content: space-around;
-
-// }
-
-// .golosina1 {
-
-//     background-image: url(./multimedia/foto-golosina1.jpg);
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     background-position: center
-// }
-
-// .golosina2 {
-//     background-image: url(./multimedia/foto-golosina2.jpg);
-//     background-size: cover;
-// }
-
-// .tituloBebidas {
-//     background-color: red;
-//     text-align: center;
-//     text-transform: uppercase;
-//     color: white
-// }
-
-// .secc {
-//     width: 100%;
-//     height: 500px;
-//     display: flex;
-//     justify-content: space-around
-// }
-
-// .bebida1 {
-//     width: 50%;
-//     background-image: url(./multimedia/foto-bebida1.jpg);
-//     background-size: cover;
-//     background-repeat: repeat-x;
-
-// }
-
-// .bebida2 {
-//     width: 50%;
-//     background-image: url(./multimedia/foto-bebida2.jpg);
-//     background-size: cover;
-
-
-// }
-
 // novedades
-
 @media only screen and (min-width:320px) {
     .novedades {
         font-size: 40px;
@@ -272,7 +150,6 @@
     }
 
     // formulario
-
     #formulario {
         position: absolute;
         right: 0;
@@ -283,17 +160,22 @@
         border: 1px solid #ced4da;
     }
 
-    // menu2
-
     .btn-outline-success {
         border-color: #ced4da
     }
 
+    // menu
     #navbar {
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
         background-color: rgb(153, 153, 153) !important;
+        font-size: x-large;
+        padding: 10px 0px 10px 20px;
+    }
+
+    a.nav-link:hover {
+        color: #000 !important;
     }
 
     a.nav-link {
@@ -301,8 +183,8 @@
     }
 
     #logoCaramelo {
-        width: 50px;
-        height: 40px;
+        width: 60px;
+        height: 50px;
     }
 
     #tamanoCarrusel {
@@ -324,7 +206,6 @@
 
     .textoIconos {
         text-align: center;
-        /* margin-bottom:; */
         float: right;
     }
 
@@ -332,12 +213,10 @@
         font-weight: 500;
     }
 
-
     #botonBuscar:hover {
         background-color: red;
         color: wheat;
     }
-
 
 .titulo__h1--color {
     color: aqua;
@@ -355,11 +234,7 @@
     color: beige;
 }
 
-
-
-
 // ESTILOS CARRITO
-
 $gris:#EEEBDD;
 $rojo:#CE1212;
 $granate:#810000;
@@ -373,7 +248,6 @@ $salmon:#FF4B5C;
     color: $gris;
     font-weight: bold
 }
-
 
 .product-details {
     padding: 10px
@@ -494,34 +368,9 @@ label.radio input:checked+span {
     background-color: $granate;
     border-color: $granate;
 }
-
-
 // FIN ESTILO CARRITO
 
-// ESTILO NOSOTROS
-h2 {
-	color: #000;
-	font-size: 26px;
-	font-weight: 300;
-	text-align: center;
-	text-transform: uppercase;
-	position: relative;
-	margin: 30px 0 60px;
-}
-h2::after {
-	content: "";
-	width: 100px;
-	position: absolute;
-	margin: 0 auto;
-	height: 4px;
-	border-radius: 1px;
-	background: $rojo;
-	left: 0;
-	right: 0;
-	bottom: -20px;
-}
-
-// carrusel
+// carruseles
 .carousel {
 	margin: 50px auto;
 	padding: 0 70px;
@@ -657,4 +506,37 @@ h2::after {
 .star-rating i {
 	font-size: 14px;
 	color: #ffc000;
+}
+
+// nosotros
+.date {
+    font-size: 11px
+}
+
+.comment-text {
+    font-size: 12px
+}
+
+.fs-12 {
+    font-size: 12px
+}
+
+.shadow-none {
+    box-shadow: none
+}
+
+.name {
+    color: #007bff
+}
+
+.cursor:hover {
+    color: blue
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.textarea {
+    resize: none
 }
