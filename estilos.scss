@@ -51,6 +51,7 @@
 #botonContacto{
     color: white;
 }
+
 // promociones
 .carousel-inner img {
     width: 100%;
@@ -59,7 +60,7 @@
 
 /* ESTO ERA DE LOS PARRAFOS Y BORDES */
 /* .estiloParrafos {
-     background-image: url(../multimedia/Coca2.jpg);
+    background-image: url(../multimedia/Coca2.jpg);
     width: 100%;
     height: 400px;
 }  */
@@ -72,6 +73,7 @@
 
 
 /* Lista after */
+// menu
 .menu {
     list-style: none;
     float: left;
@@ -95,7 +97,7 @@
     display: block;
     padding: 0px 20px;
     text-decoration: none;
-    color: red;
+    color: rgb(255, 0, 0);
     transition: all 500ms ease;
 }
 
@@ -114,6 +116,7 @@
     display: block;
 }
 
+// footer
 .footerTodos li {
     display: flex;
     flex-wrap: nowrap;
@@ -131,67 +134,77 @@
     width: 30px;
 }
 
-.tituloGolosinas {
-    background-color: rgb(211, 144, 20);
-    text-align: center;
-    text-transform: uppercase;
+.whatsapp {
+    position: fixed;
+    top: 730px;
+    left: 1340px;
+    width: 10px;
 }
 
-.golosina {
-    height: 500px;
-    width: 50%;
-    background-color: orangered;
-}
+// // golosinas
+// .tituloGolosinas {
+//     background-color: rgb(211, 144, 20);
+//     text-align: center;
+//     text-transform: uppercase;
+// }
 
-.golo {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+// .golosina {
+//     height: 500px;
+//     width: 50%;
+//     background-color: orangered;
+// }
 
-}
+// .golo {
+//     display: flex;
+//     flex-wrap: nowrap;
+//     justify-content: space-around;
 
-.golosina1 {
+// }
 
-    background-image: url(./multimedia/foto-golosina1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center
-}
+// .golosina1 {
 
-.golosina2 {
-    background-image: url(./multimedia/foto-golosina2.jpg);
-    background-size: cover;
-}
+//     background-image: url(./multimedia/foto-golosina1.jpg);
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-position: center
+// }
 
-.tituloBebidas {
-    background-color: red;
-    text-align: center;
-    text-transform: uppercase;
-    color: white
-}
+// .golosina2 {
+//     background-image: url(./multimedia/foto-golosina2.jpg);
+//     background-size: cover;
+// }
 
-.secc {
-    width: 100%;
-    height: 500px;
-    display: flex;
-    justify-content: space-around
-}
+// .tituloBebidas {
+//     background-color: red;
+//     text-align: center;
+//     text-transform: uppercase;
+//     color: white
+// }
 
-.bebida1 {
-    width: 50%;
-    background-image: url(./multimedia/foto-bebida1.jpg);
-    background-size: cover;
-    background-repeat: repeat-x;
+// .secc {
+//     width: 100%;
+//     height: 500px;
+//     display: flex;
+//     justify-content: space-around
+// }
 
-}
+// .bebida1 {
+//     width: 50%;
+//     background-image: url(./multimedia/foto-bebida1.jpg);
+//     background-size: cover;
+//     background-repeat: repeat-x;
 
-.bebida2 {
-    width: 50%;
-    background-image: url(./multimedia/foto-bebida2.jpg);
-    background-size: cover;
+// }
+
+// .bebida2 {
+//     width: 50%;
+//     background-image: url(./multimedia/foto-bebida2.jpg);
+//     background-size: cover;
 
 
-}
+// }
+
+// novedades
 
 @media only screen and (min-width:320px) {
     .novedades {
@@ -258,6 +271,8 @@
 
     }
 
+    // formulario
+
     #formulario {
         position: absolute;
         right: 0;
@@ -268,8 +283,7 @@
         border: 1px solid #ced4da;
     }
 
-
-
+    // menu2
 
     .btn-outline-success {
         border-color: #ced4da
@@ -279,7 +293,7 @@
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
-        background-color: red !important;
+        background-color: rgb(153, 153, 153) !important;
     }
 
     a.nav-link {
@@ -506,6 +520,8 @@ h2::after {
 	right: 0;
 	bottom: -20px;
 }
+
+// carrusel
 .carousel {
 	margin: 50px auto;
 	padding: 0 70px;
