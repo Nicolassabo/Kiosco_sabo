@@ -115,10 +115,20 @@
 }
 
 .footerTodos li {
-    display: inline-block;
+    display: flex;
+    flex-wrap: nowrap;
     margin: 0%;
-    width: 500px;
+    width: 100%;
     text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#facebook {
+    width: 25px;
+}
+
+#instagram {
+    width: 30px;
 }
 
 .tituloGolosinas {
