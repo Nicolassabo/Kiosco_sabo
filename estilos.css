@@ -112,9 +112,10 @@
 .novedades {
   text-align: center;
   text-transform: capitalize;
-  height: 30%;
   background-image: -webkit-gradient(linear, left top, right top, from(red), to(#9e0000));
   background-image: linear-gradient(to right, red, #9e0000);
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .novedades:hover {
@@ -122,7 +123,7 @@
 }
 
 .contenedorNovedades {
-  height: 80vh;
+  height: 60vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -587,5 +588,9 @@ label.radio input:checked + span {
 
 .textarea {
   resize: none;
+}
+
+#nosotros {
+  height: 40vh;
 }
 /*# sourceMappingURL=estilos.css.map */

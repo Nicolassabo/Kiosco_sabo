@@ -106,8 +106,9 @@
     .novedades {
         text-align: center;
         text-transform: capitalize;
-        height: 30%;
         background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(158, 0, 0));
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
     .novedades:hover {
@@ -115,7 +116,7 @@
     }
 
     .contenedorNovedades {
-        height: 80vh;
+        height: 60vh;
         width: 100%;
         display: flex;
         flex-wrap: nowrap;
@@ -539,4 +540,8 @@ label.radio input:checked+span {
 
 .textarea {
     resize: none
+}
+
+#nosotros{
+    height: 40vh;
 }
