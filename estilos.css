@@ -1,4 +1,4 @@
-/* font-family: 'Luxurious Roman', cursive; */
+
 * {
   padding: 0 0 0 1px;
   margin: 0%;
@@ -18,6 +18,7 @@
   #contacto {
     padding-bottom: 800px;
   }
+
   #contacto .maps iframe {
     width: 100%;
     height: 450px;
@@ -28,6 +29,7 @@
   #contacto {
     padding-bottom: 800px;
   }
+
   #contacto .maps iframe {
     width: 100%;
     height: 450px;
@@ -38,6 +40,7 @@
   #contacto {
     padding-bottom: 350px;
   }
+
   #contacto .maps iframe {
     width: 100%;
     height: 850px;
@@ -48,6 +51,7 @@
   #contacto {
     padding-bottom: 200px;
   }
+
   #contacto .maps iframe {
     width: 100%;
     height: 700px;
@@ -68,7 +72,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   margin: 0%;
   width: 100%;
   text-align: center;
@@ -95,17 +99,16 @@
     font-size: 40px;
     text-justify: auto;
   }
+
   .contenedorn {
     width: 100%;
     height: 70vh;
     background-color: white;
     display: -ms-grid;
     display: grid;
-    /* grid-template-columns: 200px 200px 200px;
-        grid-template-rows: 200px 200px; */
     grid-gap: 2px 1px;
     -ms-grid-columns: (1fr)[5];
-        grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
@@ -129,9 +132,9 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .novedad1 {
@@ -178,10 +181,10 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #999999 !important;
   font-size: x-large;
   padding: 10px 0px 10px 20px;
@@ -211,16 +214,16 @@ a.nav-link {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-top: 10px;
 }
 
 .icono {
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
 }
 
 .textoIconos {
@@ -310,7 +313,7 @@ label.radio span {
   font-weight: 300;
 }
 
-label.radio input:checked + span {
+label.radio input:checked+span {
   border-color: #fff;
   background-color: #CE1212;
   color: #fff;
@@ -413,7 +416,7 @@ label.radio input:checked + span {
   text-align: center;
   position: relative;
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 .carousel .item .img-box {
@@ -438,7 +441,9 @@ label.radio input:checked + span {
   font-size: 18px;
 }
 
-.carousel .item h4, .carousel .item p, .carousel .item ul {
+.carousel .item h4,
+.carousel .item p,
+.carousel .item ul {
   margin-bottom: 5px;
 }
 
@@ -455,11 +460,12 @@ label.radio input:checked + span {
   border-radius: 20px;
 }
 
-.carousel .thumb-content .btn:hover, .carousel .thumb-content .btn:focus {
+.carousel .thumb-content .btn:hover,
+.carousel .thumb-content .btn:focus {
   color: #fff;
   background: #CE1212;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .carousel .thumb-content .btn i {
@@ -478,7 +484,8 @@ label.radio input:checked + span {
   margin-right: 5px;
 }
 
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-prev,
+.carousel-control-next {
   height: 44px;
   width: 40px;
   background: #CE1212;
@@ -487,12 +494,14 @@ label.radio input:checked + span {
   opacity: 0.8;
 }
 
-.carousel-control-prev:hover, .carousel-control-next:hover {
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
   background: #810000;
   opacity: 1;
 }
 
-.carousel-control-prev i, .carousel-control-next i {
+.carousel-control-prev i,
+.carousel-control-next i {
   font-size: 36px;
   position: absolute;
   top: 50%;
@@ -518,7 +527,8 @@ label.radio input:checked + span {
   bottom: -50px;
 }
 
-.carousel-indicators li, .carousel-indicators li.active {
+.carousel-indicators li,
+.carousel-indicators li.active {
   width: 10px;
   height: 10px;
   margin: 4px;
@@ -571,7 +581,7 @@ label.radio input:checked + span {
 
 .shadow-none {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .name {
@@ -593,4 +603,5 @@ label.radio input:checked + span {
 #nosotros {
   height: 40vh;
 }
+
 /*# sourceMappingURL=estilos.css.map */
