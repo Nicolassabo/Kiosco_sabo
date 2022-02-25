@@ -125,7 +125,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #999999 !important;
+  background-color: #CE1212 !important;
   font-size: x-large;
   padding: 10px 0px 10px 20px;
 }
@@ -542,6 +542,10 @@ label.radio input:checked + span {
 
 #nosotros {
   height: 40vh;
+}
+
+.footer-copyright {
+  background-color: #CE1212;
 }
 
 @media (max-width: 575.98px) {

@@ -116,11 +116,13 @@
 }
 
 // menu
+$rojo:#CE1212;
+
 #navbar {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    background-color: rgb(153, 153, 153) !important;
+    background-color: $rojo !important;
     font-size: x-large;
     padding: 10px 0px 10px 20px;
 }
@@ -526,6 +528,9 @@ label.radio input:checked+span {
 
 #nosotros {
     height: 40vh;
+}
+.footer-copyright{
+    background-color: $rojo
 }
 
 @media (max-width: 575.98px) {
