@@ -41,65 +41,16 @@
           transform: scale(1.2);
 }
 
-.contenedorn {
-  width: 100%;
-  height: 70vh;
-  background-color: white;
-  display: -ms-grid;
-  display: grid;
-  grid-gap: 2px 1px;
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
+.zoom {
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
 }
 
-.novedades {
-  text-align: center;
-  text-transform: capitalize;
-  background-image: -webkit-gradient(linear, left top, right top, from(red), to(#9e0000));
-  background-image: linear-gradient(to right, red, #9e0000);
-  font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.novedades:hover {
-  color: aliceblue;
-}
-
-.contenedorNovedades {
-  height: 60vh;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.novedad1 {
-  width: 40vw;
-  height: 60vh;
-  background-image: url(./multimedia/cachafaz.jpeg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.novedad2 {
-  width: 40vw;
-  height: 60vh;
-  background-image: url(./multimedia/kinderbarra.png);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.novedad3 {
-  width: 40vw;
-  height: 60vh;
-  background-image: url(./multimedia/cofler.jpeg);
-  background-size: cover;
+.zoom:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
 }
 
 #formulario {
@@ -190,10 +141,6 @@ a.nav-link {
 
 .titulo__h1--font {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.sectionNovedades__h2--color {
-  color: beige;
 }
 
 .payment-info {
@@ -548,73 +495,7 @@ label.radio input:checked + span {
   background-color: #CE1212;
 }
 
-@media (max-width: 575.98px) {
-  #contacto {
-    padding-bottom: 800px;
-  }
-  #contacto .maps iframe {
-    width: 100%;
-    height: 450px;
-  }
-}
-
-@media (min-width: 576px) {
-  #contacto {
-    padding-bottom: 800px;
-  }
-  #contacto .maps iframe {
-    width: 100%;
-    height: 450px;
-  }
-}
-
-@media (min-width: 768px) {
-  #contacto {
-    padding-bottom: 350px;
-  }
-  #contacto .maps iframe {
-    width: 100%;
-    height: 850px;
-  }
-}
-
-@media (min-width: 992px) {
-  #contacto {
-    padding-bottom: 200px;
-  }
-  #contacto .maps iframe {
-    width: 100%;
-    height: 700px;
-  }
-}
-
-@media screen and (max-width: 662px) {
-  .barraIconos {
-    height: 30%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    margin-top: 10px;
-  }
-  .icono {
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
-  }
-  .textoIconos {
-    text-align: center;
-    float: right;
-  }
-}
-
-@media only screen and (min-width: 320px) {
-  .novedades {
-    font-size: 40px;
-    text-justify: auto;
-  }
+.masVendidos {
+  color: #CE1212;
 }
 /*# sourceMappingURL=estilos.css.map */

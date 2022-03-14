@@ -26,7 +26,6 @@
 
 <body>
     <header class="titulo">
-        </nav>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar"> <i class="logoCaramelo"><img
                     src="./multimedia/logo-caramelo2.png" id="logoCaramelo" alt=""></i>
             <a class="navbar-brand" id="navMenu" href="#"></a>
@@ -63,71 +62,177 @@
         </nav>
     </header>
     <br>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner" id="tamanoCarrusel">
-            <div class="carousel-item active">
-                <img src="./multimedia/baner1.jpeg" class="d-block w-100" alt="...">
+    <section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner" id="tamanoCarrusel">
+                <div class="carousel-item active">
+                    <img src="./multimedia/baner1.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./multimedia/baner2.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./multimedia/baner3.jpeg" class="d-block w-100" alt="...">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="./multimedia/baner2.jpeg" class="d-block w-100" alt="...">
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Atras</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </button>
+        </div>
+    </section>
+    <section>
+        <div class="barraIconos">
+            <div class="icono iconotarjeta">
+                <img src="./multimedia/iconotarjeta.png" alt="">
+                <div class="textoIconos">
+                    <div class="title">Aceptamos todas</div>
+                    <div class="info">las tarjetas</div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="./multimedia/baner3.jpeg" class="d-block w-100" alt="...">
+            <div class="icono iconobtc">
+                <img src="./multimedia/iconobtc.png" alt="">
+                <div class="textoIconos">
+                    <div class="title">Pagos en</div>
+                    <div class="info">criptomonedas</div>
+                </div>
+            </div>
+            <div class="icono iconoEnvios">
+                <img src="./multimedia/iconoenvios.png" alt="">
+                <div class="textoIconos">
+                    <div class="title">Envio gratis</div>
+                    <div class="info">CABA y GBA</div>
+                </div>
+            </div>
+            <div class="icono iconoreloj">
+                <img src="./multimedia/iconoreloj.png" alt="">
+                <div class="textoIconos">
+                    <div class="title">Envios</div>
+                    <div class="info">en 24hs</div>
+                </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Atras</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Siguiente</span>
-        </button>
-    </div>
-    <div class="barraIconos">
-        <div class="icono iconotarjeta">
-            <img src="./multimedia/iconotarjeta.png" alt="">
-            <div class="textoIconos">
-                <div class="title">Aceptamos todas</div>
-                <div class="info">las tarjetas</div>
-            </div>
-        </div>
-        <div class="icono iconobtc">
-            <img src="./multimedia/iconobtc.png" alt="">
-            <div class="textoIconos">
-                <div class="title">Pagos en</div>
-                <div class="info">criptomonedas</div>
-            </div>
-        </div>
-        <div class="icono iconoEnvios">
-            <img src="./multimedia/iconoenvios.png" alt="">
-            <div class="textoIconos">
-                <div class="title">Envio gratis</div>
-                <div class="info">CABA y GBA</div>
-            </div>
-        </div>
-        <div class="icono iconoreloj">
-            <img src="./multimedia/iconoreloj.png" alt="">
-            <div class="textoIconos">
-                <div class="title">Envios</div>
-                <div class="info">en 24hs</div>
-            </div>
-        </div>
-    </div>
+    </section>
 
+    <section class="section-products">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-8 col-lg-6">
 
-    <section class="sectionNovedades">
-        <h2 class="novedades sectionNovedades__h2--color">Novedades</h2>
-        <div class="contenedorNovedades">
-            <div class="novedad novedad1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <div class="header">
+
+                        <h2 class="masVendidos">Mas vendidos</h2>
+                    </div>
+                </div>
             </div>
-            <div class="novedad novedad2" data-aos="zoom-in" data-aos-offset="300"></div>
-            <div class="novedad novedad3" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="row">
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div>
+                            <img src="./multimedia/alfajorTofi.jpeg" class="zoom" alt="">
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Alfajor Tofi</h3>
+                            <h4 class="product-price">$0.00</h4>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-2" class="single-product">
+                        <div>
+                            <img src="./multimedia/turron2.jpeg" class="zoom" alt="">
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Turron Arcor</h3>
+                            <h4 class="product-price">$0.00</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-3" class="single-product">
+                        <div>
+                            <img src="./multimedia/ferrero.jpeg" class="zoom" alt="">
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Bombon Ferrero</h3>
+                            <h4 class="product-price">$0.00</h4>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-4" class="single-product">
+                        <div>
+                            <img src="./multimedia/shot.jpeg" class="zoom" alt="">
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Chocolate Shot</h3>
+                            <h4 class="product-price">$0.00</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div>
+                            <img src="./multimedia/alfajorCachafaz.jpeg" class="zoom" alt="">
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Alfajor Cachafaz</h3>
+                            <h4 class="product-price">$0.00</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-2" class="single-product">
+                        <div>
+                            <img src="./multimedia/alfajorTerrabusi.jpeg" class="zoom" alt="">
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Alfajor Terrabusi</h3>
+                            <h4 class="product-price">$0.00</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-3" class="single-product">
+                        <div>
+                            <img src="./multimedia/mantecol.jpeg" class="zoom" alt="">
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Mantecol</h3>
+                            <h4 class="product-price">$0.00</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-4" class="single-product">
+                        <div>
+                            <img src="./multimedia/alfajorMilka.jpeg" class="zoom" alt="">
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Alfajor Milka</h3>
+                            <h4 class="product-price">$0.00</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        <!-- NUESTRAS MARCAS -->
-
+    <section>
         <div class="container-xl">
             <div class="row">
                 <div class="col-md-12">
@@ -344,151 +449,137 @@
                 </div>
             </div>
     </section>
-    <!-- contacto -->
-    <div class="row" id="contacto">
-        <div class="container mt-5">
-            <div class="row" style="height:550px;">
-                <div class="col-md-6 maps">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13128.977085052104!2d-58.57120590111084!3d-34.64853348201803!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x386cd3d1d6fe59fb!2sKiosko%20Drugstore%20Pato!5e0!3m2!1ses!2sar!4v1645152628154!5m2!1ses!2sar"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="text-uppercase mt-3 font-weight-bold text-white">CONTACTO</h2>
-                    <form action="">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control mt-2" placeholder="Nombre" required>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control mt-2" placeholder="Apellido" required>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input type="email" class="form-control mt-2" placeholder="Email" required>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input type="number" class="form-control mt-2" placeholder="Teléfono" required>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <textarea class="form-control" id="exampleFormControlTextarea1"
-                                        placeholder="Mensaje" rows="3" required></textarea>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2"
-                                            required>
-                                        <label class="form-check-label" for="invalidCheck2">
-                                            Acepto los términos y condiciones
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button id="botonContacto" class="btn btn-light" type="submit">Enviar</button>
+    <!--Section: Contact v.2-->
+    <section class="mb-4">
+
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contactate</h2>
+        <p class="text-center w-responsive mx-auto mb-5">Hace tu consulta con nosotros y te respodemeremos en las
+            proximas horas</p>
+
+        <div class="row">
+
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Tu nombre</label>
                             </div>
                         </div>
-                    </form>
-                    <div class="text-white">
-                        <h2 class="text-uppercase mt-4 font-weight-bold">Nosotros</h2>
-                        <i class="fas fa-phone mt-3"></i> <a href="tel:+">(011) 0000-0000</a><br>
-                        <i class="fas fa-phone mt-3"></i> <a href="tel:+">(011) 0000-0000</a><br>
-                        <i class="fa fa-envelope mt-3"></i> <a href="">kioscosabo@hotmail.com</a><br>
-                        <i class="fas fa-globe mt-3"></i> Avenida de mayo 865, Ramos Mejía, Buenos Aires, Argentina<br>
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Tu email</label>
+                            </div>
+                        </div>
+
+
                     </div>
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+                                <label for="message">Tu mensaje</label>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary">Enviar</a>
                 </div>
+                <div class="status"></div>
             </div>
+
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>Avenida de mayo 865, Ramos Mejia,BS AS</p>
+                    </li>
+
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+54 9 11 2345 6789</p>
+                    </li>
+
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>KioscoSabo@hotmail.com</p>
+                    </li>
+                </ul>
+            </div>
+
         </div>
-    </div>
+
+    </section>
+
 
     <!-- Footer -->
     <hr>
     <footer class="page-footer font-small blue pt-4">
-
-        <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left">
-
-            <!-- Grid row -->
-            <div class="row">
-
-                <!-- Grid column -->
-                <div class="col-md-6 mt-md-0 mt-3">
-
-                    <!-- Content -->
-                    <h5 class="text-uppercase">Redes</h5>
-                    <a href="https://es-la.facebook.com/"><img src="multimedia/facebook.png" id="efecto"></a>
-                    <a href="https://www.instagram.com"><img src="multimedia/instagram.png" id="efecto"></a>
-
+        <div>
+            <!-- Footer Links -->
+            <div class="container-fluid text-center text-md-left">
+                <!-- Grid row -->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-6 mt-md-0 mt-3">
+                        <!-- Content -->
+                        <h5 class="text-uppercase">Redes</h5>
+                        <a href="https://es-la.facebook.com/"><img src="multimedia/facebook.png" id="efecto"></a>
+                        <a href="https://www.instagram.com"><img src="multimedia/instagram.png" id="efecto"></a>
+                    </div>
+                    <!-- Grid column -->
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Categorías</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="paginas/Promociones.html">Promociones</a>
+                            </li>
+                            <li>
+                                <a href="paginas/Productos.html">Bebidas</a>
+                            </li>
+                            <li>
+                                <a href="paginas/Productos.html">Golosinas</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Otros</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="paginas/Nosotros.html">Nosotros</a>
+                            </li>
+                            <li>
+                                <a href="paginas/Carrito.html">Carrito</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <!-- Grid column -->
-
-                <hr class="clearfix w-100 d-md-none pb-3">
-
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Categorías</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="paginas/Promociones.html">Promociones</a>
-                        </li>
-                        <li>
-                            <a href="paginas/Productos.html">Bebidas</a>
-                        </li>
-                        <li>
-                            <a href="paginas/Productos.html">Golosinas</a>
-                        </li>
-                    </ul>
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Otros</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="paginas/Nosotros.html">Nosotros</a>
-                        </li>
-                        <li>
-                            <a href="paginas/Carrito.html">Carrito</a>
-                        </li>
-                    </ul>
-
-                </div>
-                <!-- Grid column -->
-
             </div>
-            <!-- Grid row -->
-
-        </div>
-        <!-- Footer Links -->
-        <hr>    
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2022 Copyright
-        </div>
-        <!-- Copyright -->
-        <div class="whatsapp">
-            <img src="multimedia/whatsapp2.png" alt="whatsapp">
+            <!-- Footer Links -->
+            <hr>
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2022 Copyright
+            </div>
+            <!-- Copyright -->
         </div>
     </footer>
     <!-- Footer -->
-
+    <div class="whatsapp">
+        <img src="multimedia/whatsapp2.png" alt="whatsapp">
+    </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
